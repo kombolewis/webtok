@@ -1,7 +1,7 @@
-1 Install python2.7 and pip
-2 Install flask using pip(pip install flask)
-3 cd into flasky folder
-4run source env/bin/activate
-5cd into requirements folder
-6run pip install -r requirements.txt 
+Install python2.7 and pip
+Install flask using pip(pip install flask)
+cd into flasky folder
+run source env/bin/activate
+cd into requirements folder
+run pip install -r requirements.txt 
 done
