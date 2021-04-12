@@ -3,16 +3,17 @@
 
 
 # Requirements
-<p>python2.7,pip,flask </p>
+<p>python2.7,pip </p>
 
 
 # Installation
 
 ```
+source env/bin/activate
 git clone https://github.com/kombolewis/webtok
 cd webtok
 cd requirements
 pip install -r requirements.txt 
-source env/bin/activate
+
 
 ```
