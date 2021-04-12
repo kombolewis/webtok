@@ -3,17 +3,16 @@
 
 
 # Requirements
-<p>python2.7,pip </p>
+<p>python2.7</p>
 
 
 # Installation
 
 ```
-source env/bin/activate
+activate your virtual environment:(example: source virtualenv/directory/bin)
 git clone https://github.com/kombolewis/webtok
 cd webtok
-cd requirements
-pip install -r requirements.txt 
-
+pip install -r requirements/requirements.txt 
+python manage.py runserver
 
 ```
