@@ -1,12 +1,13 @@
-#About 
+# About 
 <p> Using twilio with flask to send sms and emails </p>
 
 
-#Requirements
+# Requirements
 <p>python2.7,pip,flask </p>
 
 
-#Installation
+# Installation
+
 ```
 git clone https://github.com/kombolewis/webtok
 cd webtok
