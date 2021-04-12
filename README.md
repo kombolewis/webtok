@@ -1,5 +1,3 @@
-# webtok
-
 # About 
 <p> Using twilio with flask to send sms and emails </p>
 
