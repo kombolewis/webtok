@@ -1,20 +1,3 @@
-# asteroid
-
-```
-Check out https://asterx.herokuapp.com for live project
-```
-
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-
 # About 
 <p> Using twilio with flask to send sms and emails </p>
 
