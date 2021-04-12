@@ -33,13 +33,10 @@ def main_view():
         account_sid = 'AC5f94bbdfcd9e336375079205c2071cd7'
         auth_token = '0e7616807a9497d8a17c3abbe4b69d45'
         client = Client(account_sid, auth_token)
-        message = client.messages \
-            .create( 
-                body=new_message,
-                from_='+1 720 204 5702',
-                to=phone_number
-                )
-        print(message.sid)
+        try:
+            message = client.messages.create(body=new_message,from_='+1 720 204 5702',to=phone_number)
+        except 
+            pass
     return render_template('mainview.html', form=form)
 
 @main.route('/call', methods=['GET', 'POST'])

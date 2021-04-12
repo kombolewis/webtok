@@ -14,7 +14,6 @@ cryptography==2.6.1
 decorator==4.3.2
 dominate==2.3.5
 enum34==1.1.6
-fdb==0.7.0
 Flask==1.0.2
 Flask-Bootstrap==3.3.7.1
 Flask-Login==0.4.1
@@ -41,7 +40,6 @@ pathlib2==2.3.3
 pbr==5.1.1
 pexpect==4.6.0
 pickleshare==0.7.5
-pkg-resources==0.0.0
 prompt-toolkit==1.0.15
 ptyprocess==0.6.0
 pycodestyle==2.5.0

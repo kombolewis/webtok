@@ -5,7 +5,7 @@ basedir = os.path.abspath(os.path.dirname(__file__))
 class Config:
     SECRET_KEY = os.environ.get('SECRET_KEY') or 'hard to guess string'
     MAIL_SERVER = os.environ.get('MAIL_SERVER', 'localhost')
-    MAIL_PORT = int(os.environ.get('MAIL_PORT', '25'))
+    MAIL_PORT = int(os.environ.get('MAIL_PORT', '2500'))
     MAIL_USE_TLS = False #os.environ.get('MAIL_USE_TLS', 'false')
     MAIL_USERNAME = None #os.environ.get('MAIL_USERNAME')
     MAIL_PASSWORD = None #os.environ.get('MAIL_PASSWORD')
