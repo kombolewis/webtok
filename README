@@ -1,7 +1,17 @@
-Install python2.7 and pip
-Install flask using pip(pip install flask)
-cd into flasky folder
-run source env/bin/activate
-cd into requirements folder
-run pip install -r requirements.txt 
-done
+#About 
+<p> Using twilio with flask to send sms and emails </p>
+
+
+#Requirements
+<p>python2.7,pip,flask </p>
+
+
+#Installation
+```
+git clone https://github.com/kombolewis/webtok
+cd webtok
+cd requirements
+pip install -r requirements.txt 
+source env/bin/activate
+
+```
